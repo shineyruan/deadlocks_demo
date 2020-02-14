@@ -1,5 +1,5 @@
 deadlock: deadlock.cpp
-	g++ deadlock.cpp -pthread -o deadlock
+	g++ deadlock.cpp -pthread -g3 -o deadlock
 
-clean: 
+clean:
 	rm deadlock
